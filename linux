@@ -1,1 +1,5 @@
+git安装依赖 
+sudo yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel curl-devel perl-ExtUtils-CBuilder perl-ExtUtils- MakeMaker 
 
+nginx安装依赖命令 
+yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel 
