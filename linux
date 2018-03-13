@@ -3,3 +3,19 @@ sudo yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel curl
 
 nginx安装依赖命令 
 yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel 
+
+安装gcc  yum install gcc
+redis安装命令
+wget http://redis.io/download/redis-4.0.2.tar.gz
+tar -zvxf redis-4.0.2.tar.gz
+cd redis-4.0.2
+make
+make install
+修改conf  密码 端口 后台运行等
+
+redis-server ./redis.conf  -- 启动
+redis-cli   客户端
+auth  输入密码
+
+
+
