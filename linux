@@ -18,4 +18,11 @@ redis-cli   客户端
 auth  输入密码
 
 
+####mysql###########
+wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+rpm -ivh mysql-community-release-el7-5.noarch.rpm
+yum -y install mysql-server
+vim /var/log/mysqld.log  查看日志
+mysql_install_db –user=mysql –datadir=/usr/local/mysql/var  初始化权限表
+mysql -uroot -p    进入mysql
 
