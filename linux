@@ -4,6 +4,10 @@ sudo yum -y install zlib-devel openssl-devel cpio expat-devel gettext-devel curl
 nginx安装依赖命令 
 yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel 
 
+
+ps -aux| grep tomcat  查看线程信息
+kill -9 23324  
+
 安装gcc  yum install gcc
 redis安装命令
 wget http://redis.io/download/redis-4.0.2.tar.gz
