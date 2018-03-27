@@ -1,0 +1,15 @@
+clean install -DskipTests  编译
+mvn clean install test >log.txt
+目录：pentaho-kettle\assemblies\pdi-ce\target
+
+
+###linux###
+上传zip
+unzip xxxxx.zip 解压
+chmod a+x  xxx  赋予权限
+vim filename
+set ff --- 编码格式
+set ff=unix  更改编码格式
+
+
+
