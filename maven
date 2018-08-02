@@ -1,0 +1,9 @@
+#maven 上传nexus
+mvn deploy:deploy-file 
+-DgroupId=cn.com.test 
+-DartifactId=pageoffice4 
+-Dversion=4.0.0.1 
+-Dpackaging=jar 
+-Dfile=pageoffice4.jar 
+-Durl=http://192.168.10.200:8081/repository/maven-3rd-party 
+-DrepositoryId=nexus-maven-3rd-party
