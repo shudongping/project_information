@@ -1,0 +1,3 @@
+日志收集检索系统一般有 kafka 流、实时处理组件 Spark Streaming 或者 Storm、实时检索系统 ElasticSearch 组成。
+后台系统通过日志系统的 Appender 组件将日志打到 kafka 流，
+然后 Spark Streaming 或者 Storm 处理流数据并将之写入 ElasticSearch 检索系统。
