@@ -56,3 +56,14 @@ mv rabbitmq_server-3.6.14 /usr/local/rabbitmq
 ./rabbitmq-server -detached   --后台启动
 
 
+#########docker 安装####
+yum install docker-io -y
+docker -v   ==版本
+service docker start   ==启动
+chkconfig docker on    == 开机启动
+echo "OPTIONS='--registry-mirror=https://mirror.ccs.tencentyun.com'" >> /etc/sysconfig/docker  使用腾讯云提供的国内镜像源
+systemctl daemon-reload
+service docker restart
+
+
+
