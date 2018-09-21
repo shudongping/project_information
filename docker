@@ -1,0 +1,5 @@
+清理容器网络占用
+docker network disconnect --force 网络模式 容器名称
+docker network disconnect --force bridge mysql1
+
+docker network inspect bridge
