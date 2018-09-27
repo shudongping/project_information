@@ -7,3 +7,11 @@ mvn deploy:deploy-file
 -Dfile=pageoffice4.jar 
 -Durl=http://192.168.10.200:8081/repository/maven-3rd-party 
 -DrepositoryId=nexus-maven-3rd-party
+
+
+
+构建项目骨架
+mvn archetype:create-from-project 
+进到archetype目录
+mvn install
+
