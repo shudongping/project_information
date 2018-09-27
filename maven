@@ -11,7 +11,7 @@ mvn deploy:deploy-file
 
 
 构建项目骨架
-mvn archetype:create-from-project 
+mvn archetype:create-from-project   -DpackageName=    指定包名
 进到archetype目录
 mvn install
 
