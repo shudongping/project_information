@@ -9,3 +9,4 @@ docker logs --tail -f [容器id]
 
 docker exec -it db3 /bin/sh
 
+docker logs --tail="10" mytest
